@@ -14,6 +14,9 @@
 		3D719B3F1E425C1500F49099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D719B3D1E425C1500F49099 /* LaunchScreen.storyboard */; };
 		3D719B4A1E425C1500F49099 /* HRV_iPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D719B491E425C1500F49099 /* HRV_iPhoneTests.swift */; };
 		3D719B551E4261F900F49099 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D719B541E4261F900F49099 /* Algorithm.swift */; };
+		3D86122F1E4279CF00CDD958 /* HeartRateCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86122C1E4279CF00CDD958 /* HeartRateCenter.swift */; };
+		3D8612301E4279CF00CDD958 /* HeartRateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86122D1E4279CF00CDD958 /* HeartRateDelegate.swift */; };
+		3D8612311E4279CF00CDD958 /* HeratRatePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86122E1E4279CF00CDD958 /* HeratRatePeripheral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		3D719B491E425C1500F49099 /* HRV_iPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRV_iPhoneTests.swift; sourceTree = "<group>"; };
 		3D719B4B1E425C1500F49099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D719B541E4261F900F49099 /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		3D86122C1E4279CF00CDD958 /* HeartRateCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateCenter.swift; sourceTree = "<group>"; };
+		3D86122D1E4279CF00CDD958 /* HeartRateDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateDelegate.swift; sourceTree = "<group>"; };
+		3D86122E1E4279CF00CDD958 /* HeratRatePeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeratRatePeripheral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		3D719B331E425C1500F49099 /* HRV-iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				3D8612321E4279E900CDD958 /* BLE */,
 				3D719B341E425C1500F49099 /* AppDelegate.swift */,
 				3D719B361E425C1500F49099 /* ViewController.swift */,
 				3D719B381E425C1500F49099 /* Main.storyboard */,
@@ -97,6 +104,16 @@
 				3D719B4B1E425C1500F49099 /* Info.plist */,
 			);
 			path = "HRV-iPhoneTests";
+			sourceTree = "<group>";
+		};
+		3D8612321E4279E900CDD958 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				3D86122E1E4279CF00CDD958 /* HeratRatePeripheral.swift */,
+				3D86122C1E4279CF00CDD958 /* HeartRateCenter.swift */,
+				3D86122D1E4279CF00CDD958 /* HeartRateDelegate.swift */,
+			);
+			name = BLE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +220,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D719B371E425C1500F49099 /* ViewController.swift in Sources */,
+				3D86122F1E4279CF00CDD958 /* HeartRateCenter.swift in Sources */,
 				3D719B551E4261F900F49099 /* Algorithm.swift in Sources */,
+				3D8612301E4279CF00CDD958 /* HeartRateDelegate.swift in Sources */,
+				3D8612311E4279CF00CDD958 /* HeratRatePeripheral.swift in Sources */,
 				3D719B351E425C1500F49099 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +430,7 @@
 				3D719B501E425C1500F49099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D719B511E425C1500F49099 /* Build configuration list for PBXNativeTarget "HRV-iPhoneTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +439,7 @@
 				3D719B531E425C1500F49099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
