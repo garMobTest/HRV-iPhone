@@ -13,6 +13,7 @@
 		3D719B3C1E425C1500F49099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D719B3B1E425C1500F49099 /* Assets.xcassets */; };
 		3D719B3F1E425C1500F49099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D719B3D1E425C1500F49099 /* LaunchScreen.storyboard */; };
 		3D719B4A1E425C1500F49099 /* HRV_iPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D719B491E425C1500F49099 /* HRV_iPhoneTests.swift */; };
+		3D719B551E4261F900F49099 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D719B541E4261F900F49099 /* Algorithm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3D719B451E425C1500F49099 /* HRV-iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HRV-iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D719B491E425C1500F49099 /* HRV_iPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRV_iPhoneTests.swift; sourceTree = "<group>"; };
 		3D719B4B1E425C1500F49099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D719B541E4261F900F49099 /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				3D719B3B1E425C1500F49099 /* Assets.xcassets */,
 				3D719B3D1E425C1500F49099 /* LaunchScreen.storyboard */,
 				3D719B401E425C1500F49099 /* Info.plist */,
+				3D719B541E4261F900F49099 /* Algorithm.swift */,
 			);
 			path = "HRV-iPhone";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D719B371E425C1500F49099 /* ViewController.swift in Sources */,
+				3D719B551E4261F900F49099 /* Algorithm.swift in Sources */,
 				3D719B351E425C1500F49099 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
